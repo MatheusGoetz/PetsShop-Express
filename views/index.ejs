@@ -36,15 +36,14 @@
                 <h2>serviços</h2>
                 <div class="items">
                     <%  for (let servico of listaServicos ) {                    
-                        if(servico ){%>
+                        if(servico ){
+                            %>
                     <article>
                         <div class="thumb"></div>
                         <h3> <%=servico.nome %></h3>
                         <h4> <%=servico.preco %></h4>
                     </article>
                     <% } else{ %>
-
-
                     <% }} %> 
                   
                 </div>
